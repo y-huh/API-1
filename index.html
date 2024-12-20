@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>API</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+</head>
+<body class="bg-img relative">
+    <header class="fixed z-10 bg-blue-200 bg-section p-5 flex items-center w-full justify-between">
+        <a class="font-bold text-[22px] text-white" href="">Products</a>
+        <ul class="category-list flex items-center gap-10">
+
+        </ul>
+    </header>
+    <main>
+        <section class="flex justify-between  p-5">
+
+            <div class="w-[70%] mt-[80px]">
+              <form class="search-form flex justify-center">
+                <input class="search-input border-2 border-black w-[1300px] py-[10px] rounded-[30px] text-center " placeholder="Searching..." type="text">
+              </form>
+
+              <ul class="preoduct-list flex justify-between flex-wrap gap-10 p-5">
+                
+              </ul>
+            </div>
+            <div class="get-single-data bg-single rounded-[30px] w-[30%] mt-[80px] border-black">
+
+            </div>
+        </section>
+
+
+    </main>
+    
+
+    <script src="./js/main.js"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>

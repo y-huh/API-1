@@ -1,0 +1,28 @@
+.bg-img{
+    background-image: url(../images/premium_photo-1701534008693-0eee0632d47a.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-section{
+    background-image: url(../images/abstract-3d-red-blue-yelllow-rainbow-texture-geometric-colorful-background-free-ai-generative-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-li{
+    background-image: url(../images/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;;
+}
+.bg-single{
+    background-image: url(../images/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;;
+}
